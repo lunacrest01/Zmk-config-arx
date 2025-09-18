@@ -1,0 +1,6 @@
+if SHIELD_ARX
+
+     config ZMK_KEYBOARD_NAME
+    default "arx"
+
+endif
