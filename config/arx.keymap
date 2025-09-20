@@ -16,7 +16,7 @@
                 &kp D      &kp E      &kp F
                 &kp G      &kp H      &mo 1
             >;
-            bindings = <&rgb_ug RGB_RED>;
+            bindings = <&rgb_ug RGB_HSB 0   100 100>;
         };
 
         // Layer 1 → Green
@@ -26,7 +26,7 @@
                 &kp RIGHT  &kp HOME   &kp END
                 &kp PG_UP  &kp PG_DN  &mo 2
             >;
-            bindings = <&rgb_ug RGB_GREEN>;
+            bindings = <&rgb_ug RGB_HSB 120 100 100>;
         };
 
         // Layer 2 → Blue
@@ -36,7 +36,7 @@
                 &kp C_MUTE        &kp C_VOL_DN &kp C_VOL_UP
                 &kp EXCLAMATION   &kp QUESTION &mo 3
             >;
-            bindings = <&rgb_ug RGB_BLUE>;
+            bindings = <&rgb_ug RGB_HSB 240 100 100>;
         };
 
         // Layer 3 → White (Bluetooth functions)
@@ -46,7 +46,7 @@
                 &bt BT_SEL 3    &bt BT_CLR      &bt BT_CLR_ALL
                 &trans          &trans          &trans
             >;
-            bindings = <&rgb_ug RGB_WHITE>;
+            bindings = <&rgb_ug RGB_HSB 0     0 100>;
         };
     };
 };
